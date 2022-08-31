@@ -1,0 +1,164 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header{
+   width: 100%;
+   background-color: transparent;
+   position: relative;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   padding-top: none;
+   z-index: 1;
+}
+
+.header {
+   min-height: 100vh;
+   width: 100%;
+   background-color: #bdc6ec;
+   color: #fff;
+   position: relative; 
+}
+
+.logo img {
+   max-width: 30%;
+}
+
+.nav-links {
+   text-align: right;
+   background: #cdd9f0;
+   padding: 10px 30px;
+   border-bottom-left-radius: 18px;
+}
+
+.nav-links ul li {
+   list-style: none;
+   display: inline-block;
+   padding: 10px 25px;
+   background-color: black;
+}
+
+.nav-links ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+.nav-links ul li :hover {
+   background-color: #848db3;
+}
+
+.left-sidebar {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #e6e7eb;
+}
+
+.row {
+   padding: 0 10%;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   position: relative;
+   margin-top: 5%;
+}
+
+.left-col {
+   flex-basis: 40%;
+}
+
+.right-col {
+   flex-basis: 55%;
+}
+
+.left-col img {
+   width: 100%;
+   cursor: pointer;
+}
+
+.right-col h1 {
+   font-size: 50px;
+   font-weight: 900;
+   color: black;
+}
+
+.right-col p {
+   color: black;
+   font-size: 20px;
+   margin: 20px 0 80px;
+
+}
+
+
+form{
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+   font-size: 20px;
+   color: black;
+   
+}
+
+input{
+   border: 3px solid black;
+   border-radius: 9px;
+   outline: none;
+   font-size: 20px;
+   width: 50%;
+   margin: 10px auto;
+   padding: 10px;
+}
+
+.content{
+   max-width: 60%;
+   padding: 50px;
+   margin:auto; 
+}
+
+.add, .update, .delete {
+   color: white;
+   background-color: purple;
+   padding: 15px 10px;
+   font-size: 20px;
+   border: 2px solid white;
+   border-radius: 14px;
+   cursor: pointer;
+}
+
+.add .update .delete :hover{
+   background-color: black;
+}
+
+.table-responsive h1{
+   color: black;
+   text-align: center;
+
+}
+table{
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+td, th{
+   border: 1px solid black;
+   text-align: left; 
+   padding: 8px;
+}
+
+table th{
+   width: 300px;
+   
+}
+
